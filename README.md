@@ -2,8 +2,6 @@
 
 Activo 24/7 con streaming, la imagen la saca de tus aplicaciones de discord, puedes añadir texto y link de redireccion
 
-Enviar mensaje a @Shoul
-
 Esta es una adaptacion de lo que era Replit, pero para usarse en cualquier servidor
 
 luego tengo que hacer un tuto para esto
