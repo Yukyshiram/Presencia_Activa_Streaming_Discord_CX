@@ -8,7 +8,7 @@ luego tengo que hacer un tuto para esto
 
 por lo pronto solo dire que las librerias utlizadas son:
 
-npm@9.3.1 discordrpcgenerator dotenv discord.js-selfbot-v11 express
+npm@9.3.1 discordrpcgenerator dotenv discord.js-selfbot-v11 express chalk@4.1.2
 
 sencillo, ejemplo: npm install discord.js
 
