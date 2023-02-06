@@ -4,6 +4,8 @@ let rpcGenerator = require("discordrpcgenerator")
 require('dotenv').config();
 const dotenv = require('dotenv');
 const TOKEN = (process.env.TOKEN);
+const chalk = require('chalk');
+const consola = require("./consol")
 var uuid = ()=>([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g,a=>(a^Math.random()*16>>a/4).toString(16))
 let client = new discord.Client()
 
@@ -31,4 +33,5 @@ client.on("ready", () => {
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)
   console.log(`${client.user.username} Inicio exitoso, toca engañar a Vicemi!`)
+  console.log(consola)
 })
