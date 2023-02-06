@@ -11,16 +11,22 @@ keepAlive()
 client.login(TOKEN)
  
 client.on("ready", () => {
-    rpcGenerator.getRpcImage("1056341354311069696", "tokisaki")
+    rpcGenerator.getRpcImage("1071986602265542726", "boxmineworld")
     .then(image => {
         let presence = new rpcGenerator.Rpc()
-        .setName("CX_Project")
-        .setUrl("https://www.youtube.com/watch?v=Z6VchWjZYwI")
+        .setName("Boxmine")
+        .setUrl("https://www.youtube.com/watch?v=WOcVXLKpKr0&t=5s")
         .setType("STREAMING")
-        .setApplicationId("1056341354311069696")
+        .setApplicationId("1071986602265542726")
         .setAssetsLargeImage(image.id)
-        .setAssetsLargeText("Dev Off")
-        .setDetails("Working at IBM")
+        .setAssetsLargeText("Simplemente Box")
+        .setAssetsSmallImage(image.id)
+        .setState("Boxmine")
+        //.setParty({
+        //    size: [1, 4],
+        //    id: uuid()
+        //})
+        .setDetails("BoxmineSiempreON")
  
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)
