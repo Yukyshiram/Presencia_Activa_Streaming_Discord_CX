@@ -15,3 +15,5 @@ sencillo, ejemplo: npm install discord.js
 se requiere https://discord.com/developers/applications
 
 lo del token tmb next time!
+
+Recomiendo tener el schedule activo para que encienda el servidor cuando se apague
