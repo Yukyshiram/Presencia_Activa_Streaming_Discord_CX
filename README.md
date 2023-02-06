@@ -12,4 +12,6 @@ discord.js npm@9.3.1 discordrpcgenerator dotenv discord.js-selfbot-v11 express e
 
 sencillo, ejemplo: npm install discord.js
 
+se requiere https://discord.com/developers/applications
+
 lo del token tmb next time!
