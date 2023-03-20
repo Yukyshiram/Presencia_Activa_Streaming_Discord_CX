@@ -32,6 +32,10 @@ client.on("ready", () => {
  
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)
-  console.log(`${client.user.username} Inicio exitoso, toca engañar a Vicemi!`)
-  console.log(consola)
-})
+    consola();
+    console.log(`
+	\n\n\n
+	Usuario: ${client.user.username} 
+	Inicio exitoso, toca engañar a Vicemi!`
+    );
+});
