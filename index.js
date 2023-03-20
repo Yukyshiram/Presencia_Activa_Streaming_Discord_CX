@@ -16,19 +16,19 @@ client.on("ready", () => {
     rpcGenerator.getRpcImage("1071986602265542726", "boxmineworld")
     .then(image => {
         let presence = new rpcGenerator.Rpc()
-        .setName("Boxmine")
+        .setName("Boxmine + CX")
         .setUrl("https://www.youtube.com/watch?v=WOcVXLKpKr0&t=5s")
         .setType("STREAMING")
         .setApplicationId("1071986602265542726")
         .setAssetsLargeImage(image.id)
-        .setAssetsLargeText("Simplemente Box")
+        .setAssetsLargeText("Simplemente CX")
         .setAssetsSmallImage(image.id)
         .setState("Boxmine")
         //.setParty({
         //    size: [1, 4],
         //    id: uuid()
         //})
-        .setDetails("BoxmineSiempreON")
+        .setDetails("Boxmine")
  
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)
