@@ -13,17 +13,17 @@ keepAlive()
 client.login(TOKEN)
  
 client.on("ready", () => {
-    rpcGenerator.getRpcImage("1071986602265542726", "boxmineworld")
+    rpcGenerator.getRpcImage("1056078692230639627", "Aimou90")
     .then(image => {
         let presence = new rpcGenerator.Rpc()
-        .setName("Boxmine + CX")
-        .setUrl("https://www.youtube.com/watch?v=WOcVXLKpKr0&t=5s")
+        .setName("Aimou90 + 2X")
+        .setUrl("https://youtu.be/3FVNaKDAWM0")
         .setType("STREAMING")
-        .setApplicationId("1071986602265542726")
+        .setApplicationId("1056078692230639627")
         .setAssetsLargeImage(image.id)
         .setAssetsLargeText("Simplemente CX")
         .setAssetsSmallImage(image.id)
-        .setState("Boxmine")
+        .setState("X2 DCAMINO")
         //.setParty({
         //    size: [1, 4],
         //    id: uuid()
